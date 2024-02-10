@@ -16,8 +16,8 @@ export default function About() {
 			<SectionHeading>About me</SectionHeading>
 			<p className="mb-3">
 				After graduating in <span className="font-medium">Architecture</span>, I
-				switched to programming for fun, and now I'm working as a full-time web
-				engineer. I learned{" "}
+				switched to programming for fun, and now I&apos;m working as a full-time
+				web engineer. I learned{" "}
 				<span className="font-medium">MERN stack - web development</span> at a
 				coding bootcamp. <span className="italic">My core stack is,</span>{" "}
 				<span className="font-medium">TypeScript</span>, and{" "}
@@ -29,9 +29,9 @@ export default function About() {
 			</p>
 
 			<p>
-				<span className="italic">When I'm not coding</span>, I love cooking,
-				painting, and doing crafts - really, any activity that involves working
-				with my hands. I'm deeply interested in{" "}
+				<span className="italic">When I&apos;m not coding</span>, I love
+				cooking, painting, and doing crafts - really, any activity that involves
+				working with my hands. I&apos;m deeply interested in{" "}
 				<span className="underline">human-centered</span> practices, and
 				regularly engage in meditation. I can be quite nerdy speaking about
 				neuroscience.
