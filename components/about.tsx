@@ -15,29 +15,26 @@ export default function About() {
 		>
 			<SectionHeading>About me</SectionHeading>
 			<p className="mb-3">
-				After graduating with a degree in{" "}
-				<span className="font-medium">Architecture</span>, I decided to pursue
-				my passion for programming. I enrolled in a coding bootcamp and learned{" "}
-				<span className="font-medium">full-stack web development</span>.{" "}
-				<span className="italic">My favorite part of programming</span> is the
-				problem-solving aspect. I <span className="underline">love</span> the
-				feeling of finally figuring out a solution to a problem. My core stack
-				is{" "}
-				<span className="font-medium">
-					React, Next.js, Node.js, and MongoDB
-				</span>
-				. I am also familiar with TypeScript and GraphQL. I am always looking to
-				learn new technologies.
-			</p>
-			<p>
-				<span className="italic">When I'm not coding</span>, I enjoy cooking,
-				painting, and doing crafts. Anything that involves building with hands.
-				I also enjoy <span className="font-medium">learning new AI tools</span>.
-				I am currently learning about{" "}
+				After graduating in <span className="font-medium">Architecture</span>, I
+				switched to programming for fun, and now I'm working as a full-time web
+				engineer. I learned{" "}
+				<span className="font-medium">MERN stack - web development</span> at a
+				coding bootcamp. <span className="italic">My core stack is,</span>{" "}
+				<span className="font-medium">TypeScript</span>, and{" "}
+				<span className="font-medium">Ruby on Rails</span>. I also enjoy{" "}
+				<span className="font-medium">exploring new AI tools</span>. I am
+				currently reading about{" "}
 				<span className="font-medium">Machine Learning</span> from
-				<span className="font-medium"> DeepLearning.ai</span>. I'm quite of
-				human centered person, and I constanly meditate and explore my inner
-				world. I can be quite nerdy about neuroscience.
+				<span className="font-medium"> DeepLearning.ai</span>.
+			</p>
+
+			<p>
+				<span className="italic">When I'm not coding</span>, I love cooking,
+				painting, and doing crafts - really, any activity that involves working
+				with my hands. I'm deeply interested in{" "}
+				<span className="underline">human-centered</span> practices, and
+				regularly engage in meditation. I can be quite nerdy speaking about
+				neuroscience.
 			</p>
 		</motion.section>
 	);

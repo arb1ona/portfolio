@@ -41,7 +41,7 @@ export const experiencesData = [
 		description:
 			"I started with 0 knowledge and graduated after 8 months of studying. I found a job as a Junior Web Engineer 3 months after the graduation.",
 		icon: React.createElement(LuGraduationCap),
-		date: "Apr 2020 - present",
+		date: "Apr 2020 - Dec 2020",
 		url: "https://epicode.com/en/",
 	},
 	{
