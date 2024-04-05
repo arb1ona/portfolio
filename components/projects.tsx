@@ -1,15 +1,15 @@
-// "use client"
+"use client";
 import React from "react";
 import SectionHeading from "./section-heading";
 import { projects } from "@/lib/data";
 import Project from "./project";
+import { useSectionInView } from "@/lib/hooks";
 
 export default function Projects() {
-	// const {ref} = useSectionInView("Skills")
-	// attach ref={ref} into section
+	const { ref } = useSectionInView("Projects", 0.5);
 
 	return (
-		<section id="projects" className="scroll-mt-28 mb-28">
+		<section id="projects" className="scroll-mt-28 mb-28" ref={ref}>
 			<SectionHeading>My projects</SectionHeading>
 			<div>
 				{projects.map((project, index) => (

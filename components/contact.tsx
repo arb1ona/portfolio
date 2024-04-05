@@ -6,16 +6,17 @@ import { motion } from "framer-motion";
 import { sendEmail } from "@/actions/sendEmail";
 import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
+import { useSectionInView } from "@/lib/hooks";
 
 function Contact() {
-	// const {ref} = useSectionInView("Contact")
-	// attach ref={ref} into section
+	const { ref } = useSectionInView("Contact");
 
 	return (
 		// pick the smallest
 		<motion.section
 			id="contact"
-			className="mb-20 sm:mb-28 w-[min(100%,38rem)] text-center"
+			className="scroll-mt-28 mb-20 sm:mb-28 w-[min(100%,38rem)] text-center"
+			ref={ref}
 			initial={{
 				opacity: 0,
 			}}

@@ -9,12 +9,16 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
 import { motion } from "framer-motion";
+import { useSectionInView } from "@/lib/hooks";
 
 export default function Experience() {
-	// const {ref} = useSectionInView("Experience")
-	// attach ref={ref} into section
+	const { ref } = useSectionInView("Experience");
 	return (
-		<motion.section id="experience" className="scroll-mt-28 mb-28 sm:mb-40">
+		<motion.section
+			id="experience"
+			className="scroll-mt-28 mb-28 sm:mb-40"
+			ref={ref}
+		>
 			<SectionHeading>My experience</SectionHeading>
 
 			<VerticalTimeline lineColor="">
