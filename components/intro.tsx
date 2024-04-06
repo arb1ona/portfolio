@@ -35,8 +35,8 @@ export default function Intro() {
 							alt="Arbiona's portrait"
 							quality="95"
 							priority={true}
-							width="165"
-							height="165"
+							width="175"
+							height="175"
 							className="rounded-full border-[0.35rem] border-white shadow-xl"
 						/>
 					</motion.div>
