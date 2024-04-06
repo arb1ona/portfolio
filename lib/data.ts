@@ -35,16 +35,6 @@ export const links = [
 
 export const experiencesData = [
 	{
-		company: "Epicode",
-		title: "Graduated bootcamp",
-		location: "Berlin, DE",
-		description:
-			"I started with 0 knowledge and graduated after 8 months of studying. I found a job as a Junior Web Engineer 3 months after the graduation.",
-		icon: React.createElement(LuGraduationCap),
-		date: "Apr 2020 - Dec 2020",
-		url: "https://epicode.com/en/",
-	},
-	{
 		company: "AutoUncle",
 		title: "Junior Web Engineer",
 		location: "Aarhus, DK",
@@ -63,6 +53,16 @@ export const experiencesData = [
 		icon: React.createElement(FaReact),
 		date: "Dec 2022 - June 2023",
 		url: "https://lynir.com/",
+	},
+	{
+		company: "Epicode",
+		title: "Graduated bootcamp",
+		location: "Berlin, DE",
+		description:
+			"I started with 0 knowledge and graduated after 8 months of studying. I found a job as a Junior Web Engineer 3 months after the graduation.",
+		icon: React.createElement(LuGraduationCap),
+		date: "Apr 2020 - Dec 2020",
+		url: "https://epicode.com/en/",
 	},
 ] as const;
 
@@ -106,6 +106,5 @@ export const skillsData = [
 	"Apollo",
 	"Express",
 	"Python",
-	"Django",
 	"Framer Motion",
 ] as const;
