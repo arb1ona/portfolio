@@ -101,9 +101,7 @@ export default function Intro() {
 				</a>
 
 				<a
-					className="bg-white p-4 flex items-center justify-center text-gray-700 rounded-full  focus:scale-[1.15] hover:text-gray-950 active:scale-105  borderBlack dark:bg-white/10
-					dark:text-white/60 hover:scale-110 active-scale-105 transition cursor-pointer
-			 borderBlack/15"
+					className="bg-white p-4 flex items-center justify-center text-gray-700 rounded-full  focus:scale-[1.15] hover:text-gray-950 active:scale-105 borderBlack dark:bg-white/10					dark:text-white/60 hover:scale-110 active-scale-105 transition cursor-pointer borderBlack/15"
 					href="https://www.linkedin.com/in/arbionashahu/"
 					target="_blank"
 				>
@@ -111,7 +109,7 @@ export default function Intro() {
 				</a>
 
 				<a
-					className="bg-white p-4 flex items-center justify-center text-gray-700 rounded-full  focus:scale-[1.15] hover:text-gray-950 active:scale-105  borderBlack dark:bg-white/10
+					className="bg-white p-4 flex items-center justify-center text-gray-700 rounded-full focus:scale-[1.15] hover:text-gray-950 active:scale-105 borderBlack dark:bg-white/10
 					dark:text-white/60 hover:scale-110 active-scale-105 transition cursor-pointer
 			 borderBlack/15"
 					href="https://github.com/arb1ona"
