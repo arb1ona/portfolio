@@ -17,13 +17,10 @@ export default function About() {
 			<p className="mb-3">
 				After graduating in <span className="font-medium">Architecture</span>, I
 				switched to programming for fun, and now I&apos;m working as a full-time
-				web engineer. I learned{" "}
-				<span className="font-medium">MERN stack - web development</span> at a
-				coding bootcamp. <span className="italic">My core stack is,</span>{" "}
+				web developer. <span className="italic">My core stack is,</span>{" "}
 				<span className="font-medium">TypeScript</span>, and{" "}
 				<span className="font-medium">Ruby on Rails</span>. I also enjoy{" "}
-				<span className="font-medium">exploring new AI tools</span>. I am
-				currently reading about{" "}
+				exploring new AI tools. I am currently reading about{" "}
 				<span className="font-medium">Machine Learning</span> from
 				<span className="font-medium"> DeepLearning.ai</span>.
 			</p>
