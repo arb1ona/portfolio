@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
+import lynirImg from "@/public/lynir.png";
 import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import autouncleImg from "@/public/autouncle.png";
 
 export const links = [
 	{
@@ -16,16 +16,16 @@ export const links = [
 		hash: "#about",
 	},
 	{
-		name: "Projects",
-		hash: "#projects",
-	},
-	{
 		name: "Skills",
 		hash: "#skills",
 	},
 	{
 		name: "Experience",
 		hash: "#experience",
+	},
+	{
+		name: "Projects",
+		hash: "#projects",
 	},
 	{
 		name: "Contact",
@@ -39,7 +39,7 @@ export const experiencesData = [
 		title: "Junior Web Engineer",
 		location: "Aarhus, DK",
 		description:
-			"I'm now a web engineer working on React, TypeScript, GraphQL and RubyOnRails.",
+			"I collaborate in a cross-functional team to deliver high-quality products for the automotive industry.  This included creating market trend dashboards, developing car price calculation tools, establishing a car valuation system across various European countries, and implementing interactive widgets for dealer websites. Technologies that I work with are: React, TypeScript, GraphQL and RubyOnRails.",
 		icon: React.createElement(CgWorkAlt),
 		date: "May 2021 - present",
 		url: "https://careers.autouncle.com/",
@@ -49,7 +49,7 @@ export const experiencesData = [
 		title: "Freelance Front-End Engineer",
 		location: "Copenhagen, DK",
 		description:
-			"I worked as a freelance developer for 7 months. Also, I upskilled to the product development.",
+			"During my 8-month freelance work, I was responsible for improving user experience by developing a dynamic timeline filter that enabled news sorting and exploration. Additionally, I played a key role in shaping the overall product design, ensuring an intuitive and visually appealing interface.",
 		icon: React.createElement(FaReact),
 		date: "Dec 2022 - June 2023",
 		url: "https://lynir.com/",
@@ -68,25 +68,25 @@ export const experiencesData = [
 
 export const projects = [
 	{
-		title: "Lorem Ipsum 1",
+		title: "Dealership products",
 		description:
-			"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-		tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-		imageUrl: corpcommentImg,
+			"This included creating market trend dashboards, car price calculation & valuation tools, and implementing interactive widgets for dealer websites.",
+		tags: ["React", "TypeScript", "Svelte", "RubyOnRails", "GraphQl", "Framer"],
+		imageUrl: autouncleImg,
 	},
 	{
-		title: "Lorem Ipsum 2",
+		title: "Lynir",
 		description:
-			"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text",
+			"I worked as frontend developer for 8 months. I was responsible for the timeline filter and the product design.",
+		tags: ["React", "TypeScript", "MongoDB", "Sass"],
+		imageUrl: lynirImg,
+	},
+	{
+		title: "rmtDev",
+		description:
+			"Job board for remote developer jobs. It has features like filtering, sorting and pagination.",
 		tags: ["React", "TypeScript", "Next.js", "Tailwind"],
 		imageUrl: rmtdevImg,
-	},
-	{
-		title: "Lorem Ipsum 3",
-		description:
-			"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-		tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-		imageUrl: wordanalyticsImg,
 	},
 ] as const;
 
@@ -105,6 +105,7 @@ export const skillsData = [
 	"GraphQL",
 	"Apollo",
 	"Express",
+	"RubyOnRails",
 	"Python",
 	"Framer Motion",
 ] as const;
